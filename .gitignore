@@ -1,1 +1,11 @@
-node_modules
+.shadow-cljs/
+node_modules/
+.cache/
+cache/
+.calva/
+.lsp/
+.cpcache/
+**/target/*
+!**/target/index.html
+**/xcuserdata/*
+
