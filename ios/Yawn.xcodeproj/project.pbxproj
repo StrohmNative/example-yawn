@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F838B36E271DFF47007B0ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F8B58555271DF7E7006DD71D /* Yawn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yawn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B58558271DF7E7006DD71D /* YawnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YawnApp.swift; sourceTree = "<group>"; };
 		F8B5855A271DF7E7006DD71D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		F8B58557271DF7E7006DD71D /* Yawn */ = {
 			isa = PBXGroup;
 			children = (
+				F838B36E271DFF47007B0ECC /* Info.plist */,
 				F8B58558271DF7E7006DD71D /* YawnApp.swift */,
 				F8B5855A271DF7E7006DD71D /* ContentView.swift */,
 				F8B5855C271DF7E8006DD71D /* Assets.xcassets */,
@@ -280,6 +282,7 @@
 				DEVELOPMENT_TEAM = 7EQ9KX3BR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yawn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,6 +313,7 @@
 				DEVELOPMENT_TEAM = 7EQ9KX3BR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yawn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
