@@ -1,6 +1,7 @@
 {
   "name": "Yawn",
   "version": "1.0.0",
+  "private": true,
   "description": "Yawn is a less than exciting weather app",
   "main": "index.js",
   "devDependencies": {
