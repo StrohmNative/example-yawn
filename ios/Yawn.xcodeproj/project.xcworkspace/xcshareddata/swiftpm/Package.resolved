@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "StrohmNative",
+        "repositoryURL": "https://github.com/StrohmNative/strohm-native",
+        "state": {
+          "branch": "main",
+          "revision": "d3dd49fd218df61a834f5f897deae2524607c43f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

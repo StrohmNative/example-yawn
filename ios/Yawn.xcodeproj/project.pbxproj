@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F838B36D271DFC49007B0ECC /* StrohmNative in Frameworks */ = {isa = PBXBuildFile; productRef = F838B36C271DFC49007B0ECC /* StrohmNative */; };
 		F8B58559271DF7E7006DD71D /* YawnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B58558271DF7E7006DD71D /* YawnApp.swift */; };
 		F8B5855B271DF7E7006DD71D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5855A271DF7E7006DD71D /* ContentView.swift */; };
 		F8B5855D271DF7E8006DD71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B5855C271DF7E8006DD71D /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F838B36D271DFC49007B0ECC /* StrohmNative in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = Yawn;
+			packageProductDependencies = (
+				F838B36C271DFC49007B0ECC /* StrohmNative */,
+			);
 			productName = Yawn;
 			productReference = F8B58555271DF7E7006DD71D /* Yawn.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = F8B5854C271DF7E7006DD71D;
+			packageReferences = (
+				F838B36B271DFC49007B0ECC /* XCRemoteSwiftPackageReference "strohm-native" */,
+			);
 			productRefGroup = F8B58556271DF7E7006DD71D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -343,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F838B36B271DFC49007B0ECC /* XCRemoteSwiftPackageReference "strohm-native" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StrohmNative/strohm-native";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F838B36C271DFC49007B0ECC /* StrohmNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F838B36B271DFC49007B0ECC /* XCRemoteSwiftPackageReference "strohm-native" */;
+			productName = StrohmNative;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8B5854D271DF7E7006DD71D /* Project object */;
 }
