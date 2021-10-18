@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F838B36D271DFC49007B0ECC /* StrohmNative in Frameworks */ = {isa = PBXBuildFile; productRef = F838B36C271DFC49007B0ECC /* StrohmNative */; };
+		F838B5F4271E02F1007B0ECC /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = F838B4F5271E02F0007B0ECC /* main.js */; };
 		F8B58559271DF7E7006DD71D /* YawnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B58558271DF7E7006DD71D /* YawnApp.swift */; };
 		F8B5855B271DF7E7006DD71D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5855A271DF7E7006DD71D /* ContentView.swift */; };
 		F8B5855D271DF7E8006DD71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B5855C271DF7E8006DD71D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		F838B36E271DFF47007B0ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F838B4F5271E02F0007B0ECC /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		F8B58555271DF7E7006DD71D /* Yawn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yawn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B58558271DF7E7006DD71D /* YawnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YawnApp.swift; sourceTree = "<group>"; };
 		F8B5855A271DF7E7006DD71D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F838B4F2271E02F0007B0ECC /* target */ = {
+			isa = PBXGroup;
+			children = (
+				F838B4F5271E02F0007B0ECC /* main.js */,
+			);
+			name = target;
+			path = ../../target;
+			sourceTree = "<group>";
+		};
 		F8B5854C271DF7E7006DD71D = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +69,7 @@
 				F8B58558271DF7E7006DD71D /* YawnApp.swift */,
 				F8B5855A271DF7E7006DD71D /* ContentView.swift */,
 				F8B5855C271DF7E8006DD71D /* Assets.xcassets */,
+				F838B4F2271E02F0007B0ECC /* target */,
 				F8B5855E271DF7E8006DD71D /* Preview Content */,
 			);
 			path = Yawn;
@@ -137,6 +149,7 @@
 			files = (
 				F8B58560271DF7E8006DD71D /* Preview Assets.xcassets in Resources */,
 				F8B5855D271DF7E8006DD71D /* Assets.xcassets in Resources */,
+				F838B5F4271E02F1007B0ECC /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
